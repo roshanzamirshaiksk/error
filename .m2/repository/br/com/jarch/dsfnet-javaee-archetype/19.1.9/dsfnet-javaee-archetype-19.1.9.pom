@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>9</version>
+    </parent>
+
+  <groupId>br.com.jarch</groupId>
+  <artifactId>dsfnet-javaee-archetype</artifactId>
+  <version>19.1.9</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>dsfnet-javaee-archetype</name>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>3.0.1</version>
+            </extension>
+        </extensions>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>3.0.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <scm>
+        <connection>scm:git:https://wesainf@bitbucket.org/wesainf/dsfnet-jarch-archetype.git</connection>
+        <developerConnection>scm:git:https://wesainf@bitbucket.org/wesainf/dsfnet-jarch-archetype.git
+        </developerConnection>
+        <url>https://wesainf@bitbucket.org/wesainf/dsfnet-jarch-archetype.git</url>
+        <tag>dsfnet-jarch-archetype-19.1.5</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Mozilla Public License, Version 2.0</name>
+            <url>http://www.mozilla.org/MPL/2.0/index.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>wagner</id>
+            <name>Wagner Araujo</name>
+            <email>wagner.araujo@wesainformatica.com.br</email>
+            <roles>
+                <role>project owner</role>
+                <role>administrator</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-3</timezone>
+        </developer>
+    </developers>
+
+</project>
